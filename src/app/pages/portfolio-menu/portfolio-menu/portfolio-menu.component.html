@@ -1,0 +1,29 @@
+<app-header></app-header>
+
+<div class="h-screen bg-[#F5F5F5] flex flex-col justify-center items-center">
+
+
+    <div class="h-1/6   w-full justify-center items-center flex">
+      <p class=" font-bold text-[48px] text-[#CF2E2E]">Portfolio</p>
+
+    </div>
+    <div class="h-5/6 w-full flex-col md:flex-row p-16 items-center flex gap-4 justify-center  ">
+
+      <div (click)="onJava()" id="java" class="h-full md:h-[70%] w-full md:w-1/4 hover:cursor-pointer hover:border-b-2 hover:border-black
+        justify-center items-center flex javaImage
+      ">
+
+      </div>
+      <div (click)="onAngular()" class="h-full md:h-[70%] w-full md:w-1/4 bg-red-700  hover:cursor-pointer hover:border-b-2 hover:border-black
+        justify-center items-center flex angularImage">
+
+      </div>
+      <div  (click)="onReact()" class="h-full md:h-[70%] w-full md:w-1/4 bg-red-700  hover:cursor-pointer hover:border-b-2 hover:border-black
+       justify-center items-center flex reactImage">
+
+      </div>
+    </div>
+
+</div>
+<app-footer></app-footer>
+

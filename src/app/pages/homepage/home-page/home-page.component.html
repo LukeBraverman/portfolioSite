@@ -1,0 +1,49 @@
+<div class="h-screen bg-green-500 flex flex-col justify-center items-center">
+
+  <div class="h-5/6 bg-red-500 w-full flex flex-col landingImage">
+        <div class="h-1/6 w-full flex justify-center md:justify-end items-center md:pr-28 ">
+            <p [routerLink]="'/about-me'" class="text-white font-bold text-2xl
+            hover:cursor-pointer hover:text-[#CF2E2E] mr-2">About Me</p>
+            <P [routerLink]="'/portfolio'" class="text-white font-bold text-2xl
+             hover:cursor-pointer hover:text-[#CF2E2E] ml-2">Portfolio</P>
+        </div>
+        <div class="h-5/6 w-full flex justify-center items-center  flex-col gap-4 p-4 ">
+            <p class="hidden md:block text-white font-bold text-[72px]">Braverman Software</p>
+            <p class=" hidden md:block text-white  text-2xl">Java, React, Angular solutions </p>
+
+            <p class="md:hidden text-white font-bold text-[72px]">Braverman </p>
+            <p class="md:hidden text-white font-bold text-[72px]"> Software</p>
+
+            <p class="md:hidden text-white  text-2xl">Java, React, Angular solutions </p>
+
+
+
+        </div>
+  </div>
+  <div class="h-1/6 bg-[#F5F5F5] w-full flex justify-center  items-center p-8">
+        <p class=" font-bold text-2xl text-[#CF2E2E]">Multiple years of professional Software Experience</p>
+  </div>
+</div>
+<div class=" bg-[#F5F5F5] flex flex-col justify-start items-center gap-16">
+  <div class="md:w-2/5 w-full p-8">
+    <p class="text-xl">Based in London, I am a software engineer with professional experience! I spent a multiple years
+      providing Java bases solutions within the banking world. I also spend some time at a company providing educational tools
+      for children around the world! Within this time I would often provide frontend Angular, React
+      solutions for end users to interact or Java based Api's.  I am now sharing my expertises and providing solutions for others!
+
+    </p>
+  </div>
+
+  <div class="w-full md:w-3/5 flex justify-center items-center ">
+      <button (click)="onAboutUs()" class="mr-8 bg-[#CF2E2E] w-1/5 pt-3 pb-3 rounded-[.25rem] text-white
+        font-bold   ">About Me</button>
+    <button (click)="onPortfolio()" class="mr-8 bg-[#CF2E2E] w-1/5 pt-3 pb-3 rounded-[.25rem] text-white
+        font-bold   ">Portfolio</button>
+
+  </div>
+
+</div>
+<div class="h-12 bg-[#F5F5F5]">
+
+</div>
+<app-footer></app-footer>

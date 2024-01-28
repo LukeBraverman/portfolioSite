@@ -1,0 +1,26 @@
+.javaImage {
+  background-image: url('/assets/images/javalong.png');
+  background-position: center; /* Center the background image */
+
+  background-repeat: no-repeat;
+  background-color: white;
+
+
+}
+
+.angularImage {
+  background-image: url('/assets/images/angular.png');
+  background-repeat: no-repeat;
+  background-position: center; /* Center the background image */
+  background-color: white;
+
+}
+
+
+.reactImage {
+  background-image: url('/assets/images/react.png');
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: center; /* Center the background image */
+
+}

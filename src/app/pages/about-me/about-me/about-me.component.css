@@ -1,0 +1,14 @@
+.imageOne {
+  background-image: url('/assets/images/whatfView.png');
+  background-repeat: no-repeat;
+  background-position: center; /* Center the background image */
+  background-size: cover; /* Optional: Cover the entire container with the background image */
+
+}
+
+.imageTwo {
+  background-image: url('/assets/images/landingImage.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: #CF2E2E;
+}

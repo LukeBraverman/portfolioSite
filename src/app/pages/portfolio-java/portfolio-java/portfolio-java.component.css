@@ -1,0 +1,14 @@
+.imageOne {
+  position: relative;
+  background-image: url('/assets/images/wharfPhone.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #CF2E2E;
+}
+
+
+/* Set a higher z-index for the text elements */
+p {
+  position: relative;
+  z-index: 1; /* Set z-index to a higher value */
+}
